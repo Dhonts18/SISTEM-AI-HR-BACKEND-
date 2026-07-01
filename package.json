@@ -1,0 +1,32 @@
+{
+  "name": "ai-hr-assistant-backend",
+  "version": "1.0.0",
+  "description": "AI HR Assistant Backend API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhonts18/SISTEM-AI-HR-BACKEND-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhonts18/SISTEM-AI-HR-BACKEND-/issues"
+  },
+  "homepage": "https://github.com/Dhonts18/SISTEM-AI-HR-BACKEND-#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
